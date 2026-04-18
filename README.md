@@ -13,7 +13,7 @@ Projeler, donanım seviyesine yakın programlama mantığını anlamak ve mekatr
 * **Kalibrasyon Algoritmaları:** Fırın sıcaklık kontrolü gibi gerçek dünya senaryoları.
 
 ## 🛠️ Kullanılan Araçlar
-* **Donanım:** HP Victus & MacBook Pro M2 (Çapraz Platform Geliştirme)
+* **Donanım:** HP Victus
 * **Derleyici:** GCC (GNU Compiler Collection)
 * **Terminal:** Git Bash & zsh
 
