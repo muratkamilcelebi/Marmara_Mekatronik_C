@@ -15,7 +15,7 @@ int main(){
 
 void ortalama(float*sensor,float boyut){
 
-    float toplam;
+    float toplam=0;
 
     for(int i=0; i<boyut; i++){
         toplam += *(sensor+i);
