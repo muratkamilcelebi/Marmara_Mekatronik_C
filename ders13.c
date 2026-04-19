@@ -7,7 +7,7 @@
 void sensor_filtrele(int *p_veriler, int boyut, int limit);
 
 int main() {
-    // Robotun sensöründen gelen 5 veri (150'den aniden 300'e sıçramış, hata var!)
+    
     int sensor_kayitlari[5] = {148, 150, 300, 152, 149};
 
     printf("Filtre Oncesi: %d, %d, %d, %d, %d\n", 

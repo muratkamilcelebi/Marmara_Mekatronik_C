@@ -21,7 +21,7 @@ int main() {
 
 void sensor_temizle(int *p_mesafe, int boyut) {
     for(int i = 0; i < boyut; i++) {
-        // Eğer gösterdiğin adresteki değer 0'dan küçükse
+        
         if(*(p_mesafe + i) < 0) {
             *(p_mesafe + i) = 0; // O adrese git ve değeri 0 yap
         }

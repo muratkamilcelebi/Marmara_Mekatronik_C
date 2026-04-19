@@ -6,11 +6,11 @@ int main() {
 
     printf("0. Eleman (ptr): %d, Adres: %p\n", *ptr, ptr);
 
-    // BİR ADIM İLERİ GİDİYORUZ
+    
     ptr++; // ptr = ptr + 1 demek. Ama hafızada 4 byte ileri atlar!
     printf("1. Eleman (ptr++): %d, Adres: %p\n", *ptr, ptr);
 
-    // BİR ADIM DAHA
+    
     ptr++;
     printf("2. Eleman (ptr++): %d, Adres: %p\n", *ptr, ptr);
 

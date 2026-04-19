@@ -11,7 +11,6 @@ int main() {
     printf("Kalibrasyon Oncesi: %d, %d, %d\n", firin_sensorleri[0], firin_sensorleri[1], firin_sensorleri[2]);
 
     // 2. FONKSİYON ÇAĞRISI: Dizinin ismini gönderiyoruz.
-    // Hatırla: Dizinin ismi aslında bir ADRESTİR (Pointerdır).
     sicaklik_kalibre_et(firin_sensorleri, 3);
 
     printf("Kalibrasyon Sonrasi: %d, %d, %d\n", firin_sensorleri[0], firin_sensorleri[1], firin_sensorleri[2]);
