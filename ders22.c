@@ -17,10 +17,10 @@ int main(){
     printf("Lutfen kiritik esik degerini giriniz\n");
     scanf("%f",&sera.kritik_esik);
 
-    printf("Sicaklik bilgileri aliniyor....");
-
     for (int i = 0; i < 3; i++)
     {
+        printf("%d. Sicaklik bilgileri aliniyor....",i+1);
+
         scanf("%f",(sera.sicakliklar + i));
     }
 
